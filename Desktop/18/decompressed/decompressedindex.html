@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!-- Памятка туриста, экскурсии, туры, распродажи -->
+<div class="wrapper">
+    <div class="header-inner">
+        <div class="logotype"></div>
+        <div class="header-container">
+            <div class="countr"><span>Страны</span></div>
+            <div class="forTourist">
+                <span id="lll">     ↓    ~</span>
+                <span >      Туристам      </span>
+                <span id="ppp">~    ↑</span>
+                <div class="zap">Памятка туриста</div>
+                <div class="ex">Экскурсии</div>
+                <div class="fucktors">Туры</div>
+                <div class="sales">Распродажи</div>
+            </div>
+            <div class="location">
+                <div class="dropdown">
+                    <button class="dropbtn activelocation">Беларусь</button>
+                    <div class="dropdown-content">
+                      <a class="asdf locBY a1 activeL">Беларусь</a>
+                      <a class="asdf locRU a2">Россия</a>
+                      <a class="asdf locBG a3">Болгария</a>
+                      <a class="asdf locEG a4">Египет</a>
+                      <a class="asdf locKZ a5">Казахстан</a>
+                      <a class="asdf locUA a6">Украина</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="personalCabinet"><span>Личный<br>кабинет</span></div>
+            <div class="language"><span>RU</span>
+                <div id="az">Скоро будет английский!</div>
+            </div>
+
+        </div>
+    </div>
+    <div class="tourSearchSelection">
+        <div class="search">
+            <form action="#" method="get">
+                <input class="inp" type="text"  onkeyup="inputFunc()" placeholder="Введите название тура/экскурсии..." tabindex="1">
+            </form>
+        </div>
+        <div class="choice">
+            <div class="choicee ch1"><text>Подбор тура</text></div>
+            <div class="choicee ch2"><text>Экскурсии</text></div>
+            <div class="choicee ch3"><text>Распродажи</text></div>
+            <div class="choicee ch4"><text>Праздничные комбо</text></div>
+        </div>
+        <div class="formBlock">
+            <form class ="form" action="">
+                <div class="block">
+                    <div class="anunah">Город вылета</div>
+                    <select class="vylet" name="home" required="required" style="    font-family: 'Roboto', sans-serif; color:white; background: #2a2a2a;">
+                     <optgroup label="Беларусь">
+                        <option>Минск</option>
+                        <option>Гомель</option>
+                      </optgroup>
+                        <optgroup label="Россия">
+                            <option>Москва</option>
+                            <option>Санкт-Петербург</option>
+                            <option>Казань</option>
+                            <option>Новосибирск</option>
+                            <option>Воронеж</option>
+                            <option>Хабаровск</option>
+                            <option>Владивосток</option>
+                          </optgroup>
+                          <optgroup label="Болгария">
+                           <option>София</option>
+                           <option>Варна</option>
+                           <option>Пловдив</option>
+                         </optgroup>
+                         <optgroup label="Египет">
+                           <option>Каир</option>
+                           <option>Александрия</option>
+                           <option>Порт-Саид</option>
+                         </optgroup>
+                      </select>
+                </div>
+                <div class="block">
+                    <div class="anunah">Страна</div>
+                    <select class="countrr" name="country" required="required" style="    font-family: 'Roboto', sans-serif; color:white; background: #2a2a2a;">
+                        <option>Германия</option>
+                        <option>Греция</option>
+                        <option>Грузия</option>
+                        <option>Египет</option>
+                        <option>Испания</option>
+                        <option>Норвегия</option>
+                        <option>Турция</option>
+                        <option>Швеция</option>
+                        <option>Шри-Ланка</option>
+                        <option>Япония</option>
+                      </select>
+                </div>
+                <div class="block">
+                    <div class="anunah">Дата вылета</div>
+                    <input class = "date"name="date" type="date" style="    font-family: 'Roboto', sans-serif; color:white; background: #2a2a2a;"/>
+                </div>
+                <div class="block">
+                    <div class="anunah">Количество ночей</div>
+    <select class = "night"name="days" required="required" style="font-family: 'Roboto', sans-serif; color:white; background: #2a2a2a;">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>30+</option>
+                      </select>
+                </div>
+                <div class="block amount">
+                    <div class="turists">
+                        <div class="adl"><p><span>Взрослыe</span>
+                           <br><span id="min" style="cursor: pointer;">-</span>
+                           <span class="vz" id="num">2</span>
+                           <span id="pl" style="cursor: pointer;">+</span></p>
+                        </div>
+                        <div class="chil">
+                            <span id="ch" style="border: none;">Добавить<br>ребёнка</span>
+                            <select class="tok chi" id="childs" style="border: 1px solid black; color:white; background: #2a2a2a;">
+                                <option value="" style="border: 1px solid black; color:white; background: #2a2a2a;">Укажите возраст</option>
+                                <option class="q" style="border: 1px solid black; color:white; background: #2a2a2a;">до года</option>
+                                <option class="q">1-4 года</option>
+                                <option class="q">5-7 лет</option>
+                                <option class="q">8-10 лет</option>
+                                <option class="q">11-14 лет</option>
+                                <option class="q">15-17 лет</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <button class="block buttonOfSearching" type="button" name="search">Поиск</button>
+            </form>
+        </div>
+    </div>
+    <div class="suggestions-tours-container">
+    <div  class="suggestions">
+        
+       <div class="container-slides">
+        <div class="arrow1"><img src="../img/back.png"></div>
+        <div class="slider">
+            
+            <div class="slides">
+            
+               
+            <div class="slide ss"><img class ="one" src="..\img\night.jpeg" alt=""></div>
+            <div class="slide"><img class ="two" src="..\img\2.jpg" alt=""></div>
+            <div class="slide"><img class ="three" src="..\img\3.jpg" alt=""></div>
+            <div class="slide"><img class ="four" src="..\img\4.jpg" alt=""></div>
+            <div class="slide"><img class ="five" src="..\img\5.jpg" alt=""></div>
+            <div class="navigation">
+                <div for="r1" class="bar r1"></div>
+                <div for="r2" class="bar r2"></div>
+                <div for="r3" class="bar r3"></div>
+                <div for="r4" class="bar r4"></div>
+                <div for="r5" class="bar r5"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="arrow2"><img src="../img/next.png"></div>
+    </div>
+    </div>
+    <div class="tours">
+        <div class="thebest"><h2>ПОПУЛЯРНЫЕ ТУРЫ</h2></div>
+           <div class="touri">
+              <div class="tour germany"></div>
+              <div class="tour greece"></div>
+              <div class="tour georgia"></div>
+              <div class="tour egypt"></div>
+           </div>
+           <div class="moretours"><span>больше туров</span></div>
+      </div>
+    </div>
+    <div class="ad">
+        <div class = "ad1">Тут могла быть ваша реклама, но нам  не заплатили</div>
+    <div class = "ad2">Тут могла быть ваша реклама, но нам  не заплатили</div>
+    <div class = "ad3">Тут могла быть ваша реклама, но нам  не заплатили</div>
+    </div>
+    <div class="bottom-inner">
+        <div class="company">
+            <div class="logo"></div>
+            <div class="name"><span>Bazz Tour Company</span></div>
+        </div>
+        <div class="bottom-inner-text">
+           <span> Нужна помощь в подборе тура? Обратитесь к специалистам .</p>
+<br>Bazz Tour - международный туроператор. Мы работаем в такими странаx, как Греция, Египет, Испания, Италия, Кипр, ОАЭ (Объединенные Арабские Эмираты), Таиланд, Франция. 
+<br>Информация, указанная на сайте, не всегда является правдой; все совпадения с реальными турами, экскурсиями и курортами случайны (наверное).
+</span></div>
+        <div class="members">
+            <span>Сделано Группой №4<br>Not Marcy<br>JanusZweitesGesicht<br>Лёша Ntroll akypacu<br>mihail Sinor Seller</span>
+        </div>
+    </div>
+</div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
