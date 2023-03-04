@@ -1,0 +1,19 @@
+{
+   "USERS":[
+   {
+      "name": "Vasya",
+      "country": "Belarus",
+      "age": "20"
+   },
+   {
+      "name": "Alex",
+      "country": "Germany",
+      "age": "31"
+   },
+   {
+      "name": "Eldar",
+      "country": "Poland",
+      "age": "old"
+}]
+
+}

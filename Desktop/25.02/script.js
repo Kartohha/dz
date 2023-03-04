@@ -6,27 +6,29 @@ const PORT = 3000
 
 const server = http.createServer((req, res) => {
     console.log('server req')
+
     res.setHeader('Content-Type', 'text/html')
-    const createPath = (page) => path.resolve(__dirname, `${page}.html`)
+    const createPath = (page) => path.resolve(__dirname, `${page}`)
     let basePath = ''
     switch (req.url) {
         case '/':
-            basePath = createPath('index')
-            res.statusCode = 200
-            break
-        case '/page3':
-            res.statusCode = 200
-            break
-        case '/page1':
-            basePath = createPath('page1')
+            basePath = createPath('index.html')
             res.statusCode = 200
             break
         case '/page2':
-            basePath = createPath('page2')
+            basePath = createPath('page2.html')
+            res.statusCode = 200
+            break
+        case '/page3':
+            basePath = createPath('page3.html')
+            res.statusCode = 200
+            break
+        case '/page4':
+            basePath = createPath('page4.json')
             res.statusCode = 200
             break
         default:
-            basePath = createPath('error')
+            basePath = createPath('error.html')
             res.statusCode = 404
             break
     }
@@ -42,6 +44,7 @@ const server = http.createServer((req, res) => {
             res.end()
         }
     })
+
 })
 
 server.listen(PORT, 'localhost', (error) => {
