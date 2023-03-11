@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <h1>Cтраница №1</h1>
+   
+
+   <%- include('./dop.ejs') %>
+   <ul class="posts-list">
+
+       <% if (UsersData.length) { %>
+           <% UsersData.forEach(({name, country, age})=> {%>
+               <li>
+                   <article>
+                      <b><p>
+                               Name: <%= name %>
+                      </p></b>
+                       <b><p class="posts-list-text">
+                           Country: <%= country %>
+                       </p></b>
+                       <div class="info">
+                           <b><span class="date">
+                               Age: <%= age %>
+                           </span></b>
+                           
+                       </div>
+                   </article>
+               </li>
+               <% }) %>
+                   <% } %>
+   </ul>
+   <style>
+      * {
+          color: rgb(17, 16, 16)
+      }
+      body {
+          background: #c1c955;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+      }
+  </style>
+</body>
+</html>
