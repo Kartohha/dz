@@ -1,0 +1,10 @@
+* {
+    color: rgb(17, 16, 16)
+}
+body {
+    background: #74c955;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
