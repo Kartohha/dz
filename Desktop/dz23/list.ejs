@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="block">
+   <%- include('./dop.ejs') %>
+   <ul class="">
+
+       <% if (Users.length) { %>
+           <% Users.forEach((el)=> {%>
+               <li>
+                      <p>
+                                <b><span>Name: </span></b><%= el.name %>
+                                <b><span>Country: </span></b><%= el.country %>
+                                <b><span>Age: </span></b><%= el.age %>
+                      </p>
+               </li>
+               <% }) %>
+                   <% } %>
+   </ul>
+   </div>
+</body>
+</html>
