@@ -1,0 +1,19 @@
+*{
+  background: black;
+}
+.wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.block{
+  width: 350px;
+  height: 600px;
+  background: rgb(61, 59, 59);
+  margin-top: 50px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+ul{
+  background-color:  rgb(61, 59, 59);
+}

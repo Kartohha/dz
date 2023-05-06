@@ -1,0 +1,24 @@
+li{
+   list-style-type: none;
+   background: rgb(185, 160, 160);
+   color: rgb(0, 0, 0);
+   display: flex;
+   width: 300px;
+   margin-top: 15px;
+   margin-left: -10px;
+   align-items: center;
+   border-radius: 10px;
+}
+.img{
+   width: 50px;
+   height: 50px;
+
+}
+p{
+   background:  rgb(185, 160, 160);
+   height: 7px;
+}
+.bl{
+   background: rgb(185, 160, 160);
+   margin-left: 10px;
+}
