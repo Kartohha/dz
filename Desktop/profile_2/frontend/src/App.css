@@ -1,0 +1,164 @@
+
+body{
+  background-image: url(../public/fon.png);
+
+}
+
+.top{
+  width: 100%;
+  height: 100px;
+  background: #242435;
+  padding-top: 20px;
+}
+.wrapper{
+  width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.data{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+.personal_data, .status{
+  width: 500px;
+  height: 500px;
+  background: #282E48;
+  margin-left: 100px;
+  margin-top: 100px;
+  border: 1px solid rgb(184 25 25 / 3%);
+  border-radius: 10px;
+  box-shadow: 0 8px 10px #000;
+  background: url(../public/noise.842fbbbae5bd6f37b0268590b6f121ec.png) repeat,linear-gradient(#1c2240,#1c2240) padding-box,linear-gradient(180deg,#4d5a85,rgba(70,82,121,0)) border-box;
+}
+
+.line{
+  height: 1px;
+  width: 460px;
+  background: #40445A;
+  margin-left: 20px;
+}
+h2{
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+li{
+  width: 400px;
+  list-style-type: none;
+  display: flex;
+  color: white;
+  font-size: 24px;
+  align-items: center;
+  margin-top: 15px;
+  padding-right: 20px;
+  justify-content: space-between;
+}
+.inf{
+  height: 30px;
+  width: 150px;
+  border: 1px solid rgb(184 25 25 / 3%);
+  border-radius: 7px;
+  box-shadow: 0 8px 10px #000;
+  background: #313856;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  color: white;
+  text-decoration: underline;
+  margin-left: 145px;
+}
+.Leaderboard{
+  width: 500px;
+  height: 600px;
+  
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: url(../public/noise.842fbbbae5bd6f37b0268590b6f121ec.png) repeat,linear-gradient(#917a16,#0a123c) padding-box,linear-gradient(180deg,#f2ff00,rgba(70,82,121,0)) border-box;
+  border: 1px solid rgb(184 25 25 / 3%);
+  border-radius: 10px;
+  box-shadow: 0 8px 10px #000;
+}
+
+
+.first{
+  width: 100%;
+  height: 150px;
+  background: #000;
+
+}
+ul{
+  width: 100%;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.place{
+  width: 75%;
+  height: 50px;
+  border: 3px solid white;
+  border-radius: 10px;
+  background: #04101C;
+  padding-left: 10px;
+  font-size: 17px;
+}
+h2{
+  color: white;
+  margin-top: 15px;
+}
+.imgprof{
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.imglid{
+  width: 70px;
+  height: 70px;
+  background-size: 80px;
+  background-repeat: no-repeat;
+}
+.liderdata{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0px;
+}
+.lid{
+  width: 200px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+  padding-right: 0px;
+}
+.line2{
+  margin-top: 50px;
+  width: 1525px;
+  height: 1px;
+  background: black;
+  border: 1px solid rgb(184 25 25 / 3%);
+  background: url(../public/noise.842fbbbae5bd6f37b0268590b6f121ec.png) repeat,linear-gradient(#1c2240,#1c2240) padding-box,linear-gradient(180deg,#4d5a85,rgba(70,82,121,0)) border-box;
+}
+
+.icon{
+  width: 50px;
+  height: 50px;
+  background-image: url(—Pngtree—rupiah\ currency\ in\ the\ form_5505819.png);
+  background-size: 100%;
+}
+.imgpl{
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
+}
